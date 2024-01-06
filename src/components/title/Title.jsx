@@ -1,29 +1,45 @@
 import './title.css';
+import { useState } from 'react';
 
 const Title = () => {
-    const handleRipple = (e) => {
-    // Получаем координаты относительно текущего элемента
-    const x = e.nativeEvent.offsetX;
-    const y = e.nativeEvent.offsetY;
+  const [hovered, setHovered] = useState(false);
+  const colors = [
+    '#FF5733',
+    '#33FF57',
+    '#5733FF',
+    '#FFFF33',
+    '#33FFFF',
+    '#FF33FF',
+    '#FF3333',
+    '#33FF33',
+    '#3333FF',
+    '#999999',
+  ];
 
-    // Создаем элемент волны
-    const ripple = document.createElement('span');
-    ripple.className = 'ripple';
-    ripple.style.left = `${x}px`;
-    ripple.style.top = `${y}px`;
-
-    // Добавляем элемент волны к компоненту
-    e.currentTarget.appendChild(ripple);
-
-    // Удаляем элемент волны через некоторое время
-    setTimeout(() => {
-      ripple.remove();
-    }, 600);
+  const handleHover = () => {
+    setHovered(true);
   };
+
+  const handleMouseLeave = () => {
+    setHovered(false);
+  };
+
+  const getRandomColor = () => {
+    return colors[Math.floor(Math.random() * colors.length)];
+  };
+
+  const randomColor = getRandomColor();
+
   return (
-    <div className="bg" onMouseMove={handleRipple}>
-      <div className="title">
+    <div className="bg">
+      <div
+        className={`title ${hovered ? 'hovered' : ''}`}
+        onMouseEnter={handleHover}
+        onMouseLeave={handleMouseLeave}
+        style={{ '--hover-color': randomColor }} // Set CSS variable with random color
+      >
         <svg
+          id="logo"
           width="588"
           height="212"
           viewBox="0 0 588 212"
@@ -102,8 +118,11 @@ const Title = () => {
           />
         </svg>
       </div>
-      ;
-      
+
+      {/* <h1 className="title">
+        <span>unique</span>
+        <span>clothes.</span>
+      </h1> */}
     </div>
   );
 };
