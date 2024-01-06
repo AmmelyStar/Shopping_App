@@ -6,8 +6,8 @@
 }
 
 .login-wrapper {
-  background-color: #c9d6ff;
-  background: linear-gradient(toggle-right, #e2e2e2, #c9d6ff);
+  background-color: #f4f6f5;
+  background: linear-gradient(toggle-right, #f4f6f5, #f4f6f5);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,15 +20,22 @@
 
   background-color: #fff;
   border-radius: 30px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
 
   overflow: hidden;
   width: 768px;
   max-width: 100%;
   min-height: 480px;
 }
-
+.container2 h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 500;
+}
 .container2 p {
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.3px;
@@ -36,10 +43,13 @@
 }
 
 .container2 span {
-  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  margin-bottom: 20px;
 }
 
 .container2 a {
+  font-family: 'Poppins', sans-serif;
   color: #333;
   font-size: 13px;
   text-decoration: none;
@@ -47,8 +57,8 @@
 }
 
 .container2 button {
-  background-color: #512da8;
-  color: #fff;
+  background-color: #ffc700;
+  color: #000;
   font-size: 12px;
   padding: 10px 45px;
   border: 1px solid transparent;
@@ -58,11 +68,16 @@
   text-transform: uppercase;
   margin-top: 10px;
   cursor: pointer;
+  opacity: 1;
 }
-
+.container2 button:hover,
+.container2 button.hidden:hover {
+  background-color: #f8d554;
+}
 .container2 button.hidden {
   background-color: transparent;
-  border-color: #fff;
+
+  border: 2px #000 solid;
 }
 
 .container2 form {
@@ -76,7 +91,8 @@
 }
 
 .container2 input {
-  background-color: #eee;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f6f5;
   border: none;
   margin: 8px 0;
   padding: 10px 15px;
@@ -141,19 +157,19 @@
   overflow: hidden;
   transition: all 0.6s ease-in-out;
   z-index: 1000;
-  border-radius: 150px 0 0 100px;
+  border-radius: 30px 0 0 30px;
 }
 .container2.active .toggle-container {
   transform: translateX(-100%);
-  border-radius: 0 150px 100px 0;
+  border-radius: 0 30px 30px 0;
 }
 .toggle {
   position: relative;
 
-  background-color: #512da8;
+  background-color: #ffc700;
   height: 100%;
-  background: linear-gradient(to right, #855fde, #512da8);
-  color: #fff;
+  background: linear-gradient(to right, #e7c64c, #ffc700);
+  color: #000;
   left: -100%;
   height: 100%;
   width: 200%;

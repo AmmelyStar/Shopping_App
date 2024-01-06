@@ -49,7 +49,7 @@ const Login = () => {
                   twitter
                 </a>
               </div>
-              <span> or use your email for registeration</span>
+              <span> or use your email for registration</span>
               <input type="text" placeholder="Name" />
               <input type="email" placeholder="Email" />
               <input type="password" placeholder="Password" />
