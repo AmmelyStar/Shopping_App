@@ -6,6 +6,7 @@ import Arrivals from 'components/arrivals/Arrivals';
 import Sale from './components/sale/sale';
 // import  Login  from 'pages/login/Login';
 import ShopCommunity from './components/shopCommunity/ShopCommunity'
+import Footer from 'components/footer/Footer';
 
 
 
@@ -20,7 +21,8 @@ export const App = () => {
        <Arrivals/>
       <Card />
       <Sale />
-      <ShopCommunity/>
+      <ShopCommunity />
+      <Footer/>
      
     </div>
   );
