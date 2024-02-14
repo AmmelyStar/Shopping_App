@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Shopping_App/static/css/main.1b2f9a75.css",
-    "main.js": "/Shopping_App/static/js/main.9ac562ca.js",
+    "main.css": "/Shopping_App/static/css/main.950447bf.css",
+    "main.js": "/Shopping_App/static/js/main.a20f1682.js",
     "static/media/header-img.jpg": "/Shopping_App/static/media/header-img.3266b145a803ea6064bc.jpg",
     "static/media/promo-img.jpg": "/Shopping_App/static/media/promo-img.527fa310359de2170668.jpg",
     "static/media/cat-03.jpg": "/Shopping_App/static/media/cat-03.eb55f780a8fbbaf39b98.jpg",
@@ -11,14 +11,18 @@
     "static/media/hmlogo.png": "/Shopping_App/static/media/hmlogo.20de471a2ab946842311.png",
     "static/media/zara.png": "/Shopping_App/static/media/zara.268d739234f578c5e7cc.png",
     "static/media/logo.svg": "/Shopping_App/static/media/logo.fa6ed5442940b2375841123db8c623be.svg",
+    "static/media/inst.svg": "/Shopping_App/static/media/inst.732079676e1f1e8f5ab8d3607bb89ff5.svg",
+    "static/media/tw.svg": "/Shopping_App/static/media/tw.28bd6c068f25e4ae67cd362b1da1f8d2.svg",
     "index.html": "/Shopping_App/index.html",
+    "static/media/in.svg": "/Shopping_App/static/media/in.4129b910559039efab168699f9e7c86f.svg",
     "static/media/arrow.svg": "/Shopping_App/static/media/arrow.9d4f9d5e31a0e0b90396898109d19746.svg",
+    "static/media/fb.svg": "/Shopping_App/static/media/fb.4faf19d0bfe6a510d553b2e4528e5bf8.svg",
     "static/media/decor-yellow.svg": "/Shopping_App/static/media/decor-yellow.a14a51327547871fd595.svg",
-    "main.1b2f9a75.css.map": "/Shopping_App/static/css/main.1b2f9a75.css.map",
-    "main.9ac562ca.js.map": "/Shopping_App/static/js/main.9ac562ca.js.map"
+    "main.950447bf.css.map": "/Shopping_App/static/css/main.950447bf.css.map",
+    "main.a20f1682.js.map": "/Shopping_App/static/js/main.a20f1682.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b2f9a75.css",
-    "static/js/main.9ac562ca.js"
+    "static/css/main.950447bf.css",
+    "static/js/main.a20f1682.js"
   ]
 }
