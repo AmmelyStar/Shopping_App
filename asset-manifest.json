@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/Shopping_App/static/css/main.950447bf.css",
-    "main.js": "/Shopping_App/static/js/main.a20f1682.js",
+    "main.css": "/Shopping_App/static/css/main.135917f4.css",
+    "main.js": "/Shopping_App/static/js/main.a8d64dbd.js",
+    "static/media/promo-img.jpg": "/Shopping_App/static/media/promo-img.bed4ff6b5729e52664de.jpg",
     "static/media/header-img.jpg": "/Shopping_App/static/media/header-img.3266b145a803ea6064bc.jpg",
-    "static/media/promo-img.jpg": "/Shopping_App/static/media/promo-img.527fa310359de2170668.jpg",
     "static/media/cat-03.jpg": "/Shopping_App/static/media/cat-03.eb55f780a8fbbaf39b98.jpg",
     "static/media/cat-01.jpg": "/Shopping_App/static/media/cat-01.c4e2270f3eab9f7477cf.jpg",
     "static/media/cat-02.jpg": "/Shopping_App/static/media/cat-02.da44a5e6d64780d948d6.jpg",
@@ -18,11 +18,11 @@
     "static/media/arrow.svg": "/Shopping_App/static/media/arrow.9d4f9d5e31a0e0b90396898109d19746.svg",
     "static/media/fb.svg": "/Shopping_App/static/media/fb.4faf19d0bfe6a510d553b2e4528e5bf8.svg",
     "static/media/decor-yellow.svg": "/Shopping_App/static/media/decor-yellow.a14a51327547871fd595.svg",
-    "main.950447bf.css.map": "/Shopping_App/static/css/main.950447bf.css.map",
-    "main.a20f1682.js.map": "/Shopping_App/static/js/main.a20f1682.js.map"
+    "main.135917f4.css.map": "/Shopping_App/static/css/main.135917f4.css.map",
+    "main.a8d64dbd.js.map": "/Shopping_App/static/js/main.a8d64dbd.js.map"
   },
   "entrypoints": [
-    "static/css/main.950447bf.css",
-    "static/js/main.a20f1682.js"
+    "static/css/main.135917f4.css",
+    "static/js/main.a8d64dbd.js"
   ]
 }
