@@ -38,7 +38,11 @@ function Header() {
                 <a href="#!">LIFESTYLE</a>
               </li>
               <li>
-                <a href="#!" className="header__nav-btn">
+                <a
+                  
+                  href="#!"
+                  className="header__nav-btn"
+                >
                   SIGN UP
                 </a>
               </li>
