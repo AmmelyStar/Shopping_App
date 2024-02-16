@@ -1,5 +1,4 @@
 import styles from './Card.module.css'
-import cat01Img from './../../img/categories/cat-01.jpg';
 import arrowImg from './../../img/icons/arrow.svg';
 
 const Card = ({title, img}) => {
@@ -9,7 +8,7 @@ const Card = ({title, img}) => {
 			<a href="#!" className={styles.card__link}>Fashion</a>
 			<img
 				className={styles.card__img}
-				src={cat01Img}
+				src={img}
 				alt="Category ..."
 			/>
 

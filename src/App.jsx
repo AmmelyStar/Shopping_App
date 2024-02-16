@@ -7,6 +7,7 @@ import Sale from './components/sale/sale';
 // import  Login  from 'pages/login/Login';
 import ShopCommunity from './components/shopCommunity/ShopCommunity'
 import Footer from 'components/footer/Footer';
+import YoungFavourite from 'components/young/YoungFavourite';
 // import { Route } from 'react-router-dom';
 
 
@@ -20,10 +21,11 @@ export const App = () => {
       <Brands />
       <Arrivals />
       {/* <Card /> */}
+
       <Sale />
+      <YoungFavourite />
       <ShopCommunity />
       <Footer />
-
     </div>
   );
 };

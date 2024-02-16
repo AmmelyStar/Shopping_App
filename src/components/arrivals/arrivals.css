@@ -1,6 +1,9 @@
 .arrivals {
     padding-top: 120px;
     padding-bottom: 143px;
+    max-width: 1780px;
+    margin: 0 auto;
+    padding: 0 30px;
 }
 
 .arrivals__header {
