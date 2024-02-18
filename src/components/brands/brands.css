@@ -19,7 +19,7 @@
     overflow: hidden;
      white-space: nowrap;
     padding: 60px 0;
-    background-color: mistyrose;
+    background-color: var(--yellow);
 }
 
 .logos:hover .logos-slide{

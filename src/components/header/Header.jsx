@@ -25,9 +25,7 @@ function Header() {
           </div>
           <nav className="header__nav">
             <ul>
-              <li className="header__link">
-                <a href="#!">CATALOGUE</a>
-              </li>
+              
               <li className="header__link">
                 <a href="#!">FASHION</a>
               </li>

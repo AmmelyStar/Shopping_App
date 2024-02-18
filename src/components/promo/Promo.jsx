@@ -1,5 +1,5 @@
 import './promo.css';
-import promoImg from '../../img/images/header-img.jpg'
+
 import Title from 'components/title/Title';
 
 const Promo = () => {
@@ -14,10 +14,7 @@ const Promo = () => {
 							</span>
 							EXPLORE
 						<Title/>
-							{/* <span className="highlight highlight--yellow">
-								<span>UNIQUE UKRAINIAN</span>
-							</span>
-							 */}
+							
 						</div>
 						<div className="promo__desc">
 							Live for Influential and Innovative fashion!
@@ -28,9 +25,7 @@ const Promo = () => {
 							</a>
 						</div>
 					</div>
-					<div className="promo__img">
-						<img src={promoImg} alt="Promo" />
-					</div>
+					
 				</div>
 			</div>
 		</section>
