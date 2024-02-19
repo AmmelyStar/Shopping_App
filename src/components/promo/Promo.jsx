@@ -9,16 +9,16 @@ const Promo = () => {
 				<div className="promo__content">
 					<div className="promo__text">
 						<div className="promo__title">
-							<span className="highlight">
+							{/* <span className="highlight">
 								<span className='span-text'>LET’S</span>
-							</span>
-							EXPLORE
+							</span> */}
+							{/* EXPLORE */}
 						<Title/>
 							
 						</div>
-						<div className="promo__desc">
+						{/* <div className="promo__desc">
 							Live for Influential and Innovative fashion!
-						</div>
+						</div> */}
 						<div className="promo__btn-wrapper">
 							<a href="#!" className="promo__btn">
 								Shop Now
