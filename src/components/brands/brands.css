@@ -1,7 +1,4 @@
 
-
-
-
 .logos-slide img{
     height: 60px;
     margin: 0 50px;
@@ -38,7 +35,18 @@
     }
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px){
+  .logos-slide img{
+    height: 20px;
+    margin: 0 40px;
+}
 
+.logos{
+    padding: 30px 0;
+   margin-bottom: 50px;
+}
+
+}
 
 
 

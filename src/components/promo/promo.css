@@ -47,7 +47,6 @@
   margin-left: 50px;
   background: #000000;
   border-radius: 10px;
-
   font-weight: 500;
   font-size: 30px;
   line-height: 1.5;
@@ -58,4 +57,15 @@
 .highlight {
   position: relative;
   display: inline-block;
+}
+
+
+
+@media screen and (min-width: 375px) and (max-width: 767px){
+  .promo__btn {
+  padding: 10px 30px;
+   font-size: 24px;
+ 
+}
+
 }

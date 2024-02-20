@@ -14,19 +14,25 @@ import YoungFavourite from 'components/young/YoungFavourite';
 export const App = () => {
 
   return (
-    <div>
-      {/* <Login/> */}
+    <>
       <Header />
       <Promo />
       <Brands />
       <Arrivals />
-      {/* <Card /> */}
+    </>
+    // <div>
+    //   {/* <Login/> */}
+    //   <Header />
+    //   <Promo />
+    //   <Brands />
+    //   <Arrivals />
+    //   {/* <Card /> */}
 
-      <Sale />
-      <YoungFavourite />
-      <ShopCommunity />
-      <Footer />
-    </div>
+    //   <Sale />
+    //   <YoungFavourite />
+    //   <ShopCommunity />
+    //   <Footer />
+    // </div>
   );
 };
 

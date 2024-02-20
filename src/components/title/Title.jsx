@@ -118,11 +118,6 @@ const Title = () => {
           />
         </svg>
       </div>
-
-      {/* <h1 className="title">
-        <span>unique</span>
-        <span>clothes.</span>
-      </h1> */}
     </div>
   );
 };
