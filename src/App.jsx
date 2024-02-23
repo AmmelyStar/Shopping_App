@@ -20,6 +20,7 @@ export const App = () => {
       <Promo />
       <Brands />
       <Arrivals />
+      <Footer />
     </>
     // <div>
     //   {/* <Login/> */}
