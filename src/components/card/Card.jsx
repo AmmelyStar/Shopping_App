@@ -1,4 +1,5 @@
-import styles from './Card.module.css'
+import styles from './Card.module.css';
+
 import arrowImg from './../../img/icons/arrow.svg';
 
 const Card = ({ title, img }) => {

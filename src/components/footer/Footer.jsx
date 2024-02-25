@@ -11,10 +11,11 @@ export default function Footer() {
         <div className="footer__social">
           <h3 className="footer__title">FASHION</h3>
           <div className="footer__desc">
-            Complete your style with awesome <br /> clothes from us.
+            Complete your style with <span>awesome</span> <br /> clothes from
+            us.
           </div>
           <div className="wrap_svg">
-            <img src={fb} alt="fb" width={52} height={52}/>
+            <img src={fb} alt="fb" width={52} height={52} />
             <img src={linkedin} alt="linkedin" />
             <img src={insta} alt="instagram" />
             <img src={tw} alt="twitter" />
@@ -23,22 +24,22 @@ export default function Footer() {
         <div className="footer_nav">
           <ul className="footer_nav-title">
             Company
-            <li>About</li>
-            <li>Contact us</li>
-            <li>Support</li>
-            <li>Careers</li>
+            <li className="footer_nav-item">About</li>
+            <li className="footer_nav-item">Contact us</li>
+            <li className="footer_nav-item">Support</li>
+            <li className="footer_nav-item">Careers</li>
           </ul>
           <ul className="footer_nav-title">
             Quick Link
-            <li>Share Location</li>
-            <li>Orders Tracking</li>
-            <li>Size Guide</li>
-            <li>FAQs</li>
+            <li className="footer_nav-item">Share Location</li>
+            <li className="footer_nav-item">Orders Tracking</li>
+            <li className="footer_nav-item">Size Guide</li>
+            <li className="footer_nav-item">FAQs</li>
           </ul>
           <ul className="footer_nav-title">
             Legal
-            <li>Terms & conditions</li>
-            <li>Privacy Policy</li>
+            <li className="footer_nav-item">Terms & conditions</li>
+            <li className="footer_nav-item">Privacy Policy</li>
           </ul>
         </div>
       </section>

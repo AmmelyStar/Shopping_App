@@ -1,10 +1,10 @@
 .arrivals {
-    padding-top: 120px;
-    padding-bottom: 143px;
+
     max-width: 1780px;
     margin: 0 auto;
     padding: 0 30px;
     margin-top: 100px;
+     margin-bottom: 100px;
 }
 .container{
     display: flex;
@@ -21,3 +21,28 @@
     column-gap: 30px;
 }
 
+@media screen and (min-width: 767px) and (max-width: 1219px){
+    .arrivals__cards {
+    display: flex;
+    flex-wrap: wrap;
+    
+  
+}
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 766px){
+  .arrivals {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .arrivals__header {
+    margin-bottom: 30px;
+  }
+  .arrivals__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+  }
+}
