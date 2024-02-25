@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/Shopping_App/static/css/main.51cc4661.css",
-    "main.js": "/Shopping_App/static/js/main.84eb8a46.js",
+    "main.css": "/Shopping_App/static/css/main.a3224487.css",
+    "main.js": "/Shopping_App/static/js/main.1484a48e.js",
+    "static/media/hero.jpg": "/Shopping_App/static/media/hero.0b81a1e2325a172faa8b.jpg",
     "static/media/promo-img.jpg": "/Shopping_App/static/media/promo-img.bed4ff6b5729e52664de.jpg",
-    "static/media/header-img.jpg": "/Shopping_App/static/media/header-img.3266b145a803ea6064bc.jpg",
-    "static/media/promo-01.jpg": "/Shopping_App/static/media/promo-01.4fc3ca39e368bb92d886.jpg",
-    "static/media/cat-03.jpg": "/Shopping_App/static/media/cat-03.eb55f780a8fbbaf39b98.jpg",
-    "static/media/cat-01.jpg": "/Shopping_App/static/media/cat-01.c4e2270f3eab9f7477cf.jpg",
-    "static/media/promo-02.jpg": "/Shopping_App/static/media/promo-02.27a2e3f6b94c48d6427b.jpg",
-    "static/media/cat-02.jpg": "/Shopping_App/static/media/cat-02.da44a5e6d64780d948d6.jpg",
+    "static/media/promo-02.jpg": "/Shopping_App/static/media/promo-02.3e846cc7d4a7a63d5d5b.jpg",
+    "static/media/promo-01.jpg": "/Shopping_App/static/media/promo-01.a0bda2f95a572cf344a2.jpg",
+    "static/media/cat-02.jpg": "/Shopping_App/static/media/cat-02.0bf382a6c6f02dfae957.jpg",
+    "static/media/cat-03.jpg": "/Shopping_App/static/media/cat-03.2925c4da45ecf2399782.jpg",
+    "static/media/cat-01.jpg": "/Shopping_App/static/media/cat-01.4e50ca00ab39e7a90096.jpg",
     "static/media/esprit.png": "/Shopping_App/static/media/esprit.f8325a146152a8f44b03.png",
     "static/media/hmlogo.png": "/Shopping_App/static/media/hmlogo.20de471a2ab946842311.png",
     "static/media/zara.png": "/Shopping_App/static/media/zara.268d739234f578c5e7cc.png",
     "static/media/logo.svg": "/Shopping_App/static/media/logo.fa6ed5442940b2375841123db8c623be.svg",
-    "static/media/inst.svg": "/Shopping_App/static/media/inst.732079676e1f1e8f5ab8d3607bb89ff5.svg",
-    "static/media/tw.svg": "/Shopping_App/static/media/tw.28bd6c068f25e4ae67cd362b1da1f8d2.svg",
+    "static/media/inst.svg": "/Shopping_App/static/media/inst.9ba348d1fbf632353c844117681505b5.svg",
+    "static/media/tw.svg": "/Shopping_App/static/media/tw.aa13c5453fa1e117763998ddd670b866.svg",
     "index.html": "/Shopping_App/index.html",
-    "static/media/in.svg": "/Shopping_App/static/media/in.4129b910559039efab168699f9e7c86f.svg",
+    "static/media/in.svg": "/Shopping_App/static/media/in.ddd68a3b7943597e70772ddc7488b7db.svg",
     "static/media/arrow.svg": "/Shopping_App/static/media/arrow.9d4f9d5e31a0e0b90396898109d19746.svg",
-    "static/media/fb.svg": "/Shopping_App/static/media/fb.4faf19d0bfe6a510d553b2e4528e5bf8.svg",
+    "static/media/fb.svg": "/Shopping_App/static/media/fb.d494ae21342c1bc147ec753b9eeecc37.svg",
     "static/media/decor-yellow.svg": "/Shopping_App/static/media/decor-yellow.a14a51327547871fd595.svg",
-    "main.51cc4661.css.map": "/Shopping_App/static/css/main.51cc4661.css.map",
-    "main.84eb8a46.js.map": "/Shopping_App/static/js/main.84eb8a46.js.map"
+    "main.a3224487.css.map": "/Shopping_App/static/css/main.a3224487.css.map",
+    "main.1484a48e.js.map": "/Shopping_App/static/js/main.1484a48e.js.map"
   },
   "entrypoints": [
-    "static/css/main.51cc4661.css",
-    "static/js/main.84eb8a46.js"
+    "static/css/main.a3224487.css",
+    "static/js/main.1484a48e.js"
   ]
 }
