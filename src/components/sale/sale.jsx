@@ -6,21 +6,22 @@ export default function Sale() {
     <>
       <section className="sale">
         <div className="container">
-          <div className="sale__img">
-            <img src={saleImg} alt="sale" />
-          </div>
           <div className="sale__content">
+            <div className="sale__img">
+              <img src={saleImg} alt="sale" />
+            </div>
             <div className="sale__text">
               <div className="sale__title">
                 <span className="highlight">
                   <span>PAYDAY</span>
                 </span>
+                <br />
                 SALE NOW
               </div>
 
               <div className="sale__desc">
                 <span>
-                  Spend minimal $100 get 30% off <br /> voucher code for your next
+                  Spend minimal $100 get 30% off voucher code for your next
                   purchase
                 </span>
                 <span>

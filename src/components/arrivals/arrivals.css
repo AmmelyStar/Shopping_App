@@ -9,6 +9,7 @@
 .container{
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .arrivals__header {
@@ -19,14 +20,14 @@
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 767px) and (max-width: 1219px){
     .arrivals__cards {
     display: flex;
     flex-wrap: wrap;
-    
-  
+     justify-content: space-between;
 }
 
 }
@@ -38,6 +39,7 @@
   }
   .arrivals__header {
     margin-bottom: 30px;
+    text-align: center;
   }
   .arrivals__cards {
     display: flex;
@@ -45,4 +47,5 @@
     justify-content: space-between;
     gap: 30px;
   }
+
 }

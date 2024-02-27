@@ -42,8 +42,10 @@
 }
 
 .card__img {
+  width: 100%;
   margin-bottom: 28px;
   border-radius: 20px;
+
 }
 
 .card__body {
@@ -51,6 +53,7 @@
   justify-content: space-between;
   column-gap: 10px;
   align-items: center;
+  margin-bottom: 60px;
 }
 
 .card__title {
@@ -68,6 +71,7 @@
   line-height: 2.08;
   letter-spacing: -0.04em;
   color: var(--gray);
+  
 }
 
 .card__icon {

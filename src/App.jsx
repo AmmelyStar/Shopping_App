@@ -19,16 +19,14 @@ export const App = () => {
       <Header />
       <Promo />
       <Brands />
-      <Arrivals />
-      <Footer />
+       <Sale /> 
+     <Arrivals /> 
+     <Footer /> *
     </>
     // <div>
     //   {/* <Login/> */}
-    //   <Header />
-    //   <Promo />
+
     //   <Brands />
-    //   <Arrivals />
-    //   {/* <Card /> */}
 
     //   <Sale />
     //   <YoungFavourite />
