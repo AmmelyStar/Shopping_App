@@ -19,6 +19,7 @@ export const App = () => {
       <Header />
       <Promo />
       <Brands />
+     <YoungFavourite />
        <Sale /> 
      <Arrivals /> 
      <Footer /> *
