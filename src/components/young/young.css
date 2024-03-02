@@ -6,7 +6,7 @@
 }
 .favorite__title {
   font-family: 'Poppins';
-  font-size: 48px;
+  font-size: 46px;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -18,15 +18,12 @@
 }
 
 /* -------------media--------------- */
-/* -------------media--------------- */
-/* -------------media--------------- */
-/* -------------media--------------- */
-/* -------------media--------------- */
-/* -------------media--------------- */
+
 
 @media screen and (min-width: 1220px) {
   .favorite {
     padding-bottom: 30px;
+    padding-top: 100px;
   }
   .favorite__header {
     margin-bottom: 40px;
@@ -48,7 +45,6 @@
   }
 }
 @media screen and (min-width: 375px) {
-
   .favorite__title {
     font-size: 24px;
   }
