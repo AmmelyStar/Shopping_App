@@ -4,9 +4,9 @@
 .favorite__header {
   margin-bottom: 80px;
 }
-.favorite__title { 
-    font-family: 'Poppins';
-  font-size: 46px;
+.favorite__title {
+  font-family: "Poppins";
+  font-size: 48px;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -19,7 +19,6 @@
 
 /* -------------media--------------- */
 
-
 @media screen and (min-width: 1220px) {
   .favorite {
     padding-bottom: 30px;
@@ -29,13 +28,13 @@
     margin-bottom: 40px;
   }
   .favorite__title {
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-size: 32px;
     font-weight: 900;
   }
 }
 @media screen and (min-width: 767px) {
-    .container{
+  .container {
     width: 705px;
   }
   .favorite__cards {
@@ -49,4 +48,3 @@
     font-size: 24px;
   }
 }
-
